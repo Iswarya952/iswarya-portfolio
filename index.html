@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Iswarya Doddipatla | AI Engineer &amp; Software Developer</title>
+<meta name="description" content="Iswarya Doddipatla — AI Engineer, Software Developer and RAG/LLM specialist building intelligent, scalable, real-world AI systems." />
+<meta name="keywords" content="Iswarya Doddipatla, AI Engineer, LLM Developer, RAG Engineer, Software Developer, Portfolio" />
+<meta name="author" content="Iswarya Doddipatla" />
+
+<meta property="og:title" content="Iswarya Doddipatla | AI Engineer & Software Developer" />
+<meta property="og:description" content="I build intelligent AI systems, scalable software and real-world AI applications powered by Large Language Models." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="og-image.png" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Iswarya Doddipatla | AI Engineer & Software Developer" />
+<meta name="twitter:description" content="I build intelligent AI systems, scalable software and real-world AI applications powered by Large Language Models, RAG and Machine Learning." />
+<meta name="twitter:image" content="og-image.png" />
+
+<link rel="canonical" href="https://iswarya952.github.io/iswarya-portfolio/" 
+ />
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Iswarya Doddipatla",
+  "jobTitle": "AI Engineer & Software Developer",
+  "email": "iswaryadoddipatla@gmail.com",
+  "url": "https://github.com/Iswarya952",
+  "sameAs": [
+    "https://github.com/Iswarya952",
+    "https://linkedin.com/in/iswarya-doddipatla",
+    "https://leetcode.com/"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+</head>
+<body>
+
+<a href="#home" class="skip-link">Skip to main content</a>
+
+<!-- ============ LOADING SCREEN ============ -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <div class="loader-ring"></div>
+    <span class="loader-text">ID<span class="loader-dot">.</span></span>
+  </div>
+</div>
+
+<!-- ============ SCROLL PROGRESS ============ -->
+<div id="scroll-progress"></div>
+
+<!-- ============ CURSOR GLOW ============ -->
+<div id="cursor-glow" aria-hidden="true"></div>
+
+<!-- ============ BACKGROUND LAYERS ============ -->
+<div class="bg-layers" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="aurora aurora-1"></div>
+  <div class="aurora aurora-2"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div id="particles"></div>
+</div>
+
+<!-- ============ NAVBAR ============ -->
+<header id="navbar" class="navbar">
+  <nav class="nav-inner">
+    <a href="#home" class="logo">
+      <span class="logo-line">Iswarya</span>
+      <span class="logo-line logo-line-2">Doddipatla</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+      <li><a href="#achievements" class="nav-link" data-section="achievements">Achievements</a></li>
+      <li><a href="#github" class="nav-link" data-section="github">GitHub</a></li>
+      <li><a href="#leetcode" class="nav-link" data-section="leetcode">LeetCode</a></li>
+      <li><a href="#certifications" class="nav-link" data-section="certifications">Certs</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <div class="nav-socials">
+        <a href="https://github.com/Iswarya952" target="_blank" rel="noopener" aria-label="GitHub" class="icon-btn" data-lucide="github"></a>
+        <a href="https://linkedin.com/in/iswarya-doddipatla" target="_blank" rel="noopener" aria-label="LinkedIn" class="icon-btn" data-lucide="linkedin"></a>
+        <a href="https://leetcode.com/" target="_blank" rel="noopener" aria-label="LeetCode" class="icon-btn" data-lucide="code-2"></a>
+        <a href="mailto:iswaryadoddipatla@gmail.com" aria-label="Email" class="icon-btn" data-lucide="mail"></a>
+      </div>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <span data-lucide="sun" class="theme-icon sun"></span>
+        <span data-lucide="moon" class="theme-icon moon"></span>
+      </button>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section id="home" class="hero">
+  <div class="hero-inner">
+    <div class="hero-text reveal">
+      <p class="eyebrow"><span class="pulse-dot"></span> Available for opportunities</p>
+      <h1 class="hero-title">
+        Hello, I'm<br/>
+        <span class="gradient-text">Iswarya Doddipatla</span>
+      </h1>
+      <h2 class="hero-typing">
+        I'm a <span id="typedRole" class="typed-role"></span><span class="typed-cursor">|</span>
+      </h2>
+      <p class="hero-desc">
+        I build intelligent AI systems, scalable software and real-world AI applications powered by Large Language Models, Retrieval-Augmented Generation and Machine Learning.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="Iswarya_Doddipatla_Resume.pdf" download="Iswarya_Doddipatla_Resume.pdf" class="btn btn-secondary">Download Resume</a>
+        <a href="#contact" class="btn btn-ghost">Hire Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Iswarya952" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon" data-lucide="github"></a>
+        <a href="https://linkedin.com/in/iswarya-doddipatla" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon" data-lucide="linkedin"></a>
+        <a href="https://leetcode.com/" target="_blank" rel="noopener" aria-label="LeetCode" class="social-icon" data-lucide="code-2"></a>
+        <a href="mailto:iswaryadoddipatla@gmail.com" aria-label="Email" class="social-icon" data-lucide="mail"></a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="profile-card">
+        <div class="profile-card-glow"></div>
+        <div class="profile-ring"></div>
+        <div class="profile-avatar">
+          <img src="profile.png" alt="Iswarya Doddipatla" class="avatar-photo" loading="eager" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <span data-icon="user-illustration" class="avatar-illustration" style="display:none;"></span>
+        </div>
+        <div class="profile-badge profile-badge-1">
+          <span data-lucide="sparkles"></span> AI Engineer
+        </div>
+        <div class="profile-badge profile-badge-2">
+          <span data-lucide="cpu"></span> RAG Specialist
+        </div>
+        <div class="profile-badge profile-badge-3">
+          <span data-lucide="code-2"></span> Full Stack
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section about">
+  <div class="section-head reveal">
+    <p class="section-tag">About Me</p>
+    <h2 class="section-title">The mind behind the code</h2>
+  </div>
+
+  <div class="about-inner">
+    <div class="about-visual reveal">
+      <div class="about-card">
+        <div class="about-card-glow"></div>
+        <img src="profile.png" alt="Iswarya Doddipatla" class="about-photo" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <span data-icon="about-illustration" class="about-illustration" style="display:none;"></span>
+      </div>
+      <div class="chip-cloud" id="chipCloud">
+        <span class="chip">Python</span>
+        <span class="chip">Java</span>
+        <span class="chip">LLMs</span>
+        <span class="chip">RAG</span>
+        <span class="chip">LangChain</span>
+        <span class="chip">Flask</span>
+        <span class="chip">GitHub</span>
+        <span class="chip">Machine Learning</span>
+        <span class="chip">MySQL</span>
+        <span class="chip">AI</span>
+      </div>
+    </div>
+
+    <div class="about-text reveal">
+      <p>I am a passionate Information Technology undergraduate with strong interests in Artificial Intelligence, Large Language Models, Retrieval-Augmented Generation, Machine Learning, Full Stack Development and Software Engineering.</p>
+      <p>I enjoy building scalable AI products that solve real-world problems.</p>
+
+      <div class="about-meta">
+        <div class="meta-item">
+          <span data-lucide="graduation-cap"></span>
+          <div><strong>B.Tech, Information Technology</strong><span>SVECW</span></div>
+        </div>
+        <div class="meta-item">
+          <span data-lucide="mail"></span>
+          <div><strong>Email</strong><span>iswaryadoddipatla@gmail.com</span></div>
+        </div>
+        <div class="meta-item">
+          <span data-lucide="phone"></span>
+          <div><strong>Phone</strong><span>+91 8008009731</span></div>
+        </div>
+      </div>
+
+      <div class="stats-grid" id="statsGrid">
+        <div class="stat-card">
+          <span class="stat-number" data-target="9.56" data-decimal="true">0</span>
+          <span class="stat-label">CGPA</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="10" data-suffix="+">0</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="200" data-suffix="+">0</span>
+          <span class="stat-label">Coding Problems</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="6" data-suffix="+">0</span>
+          <span class="stat-label">Open Source PRs</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="5" data-suffix="+">0</span>
+          <span class="stat-label">Hackathons</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section skills">
+  <div class="section-head reveal">
+    <p class="section-tag">Skills</p>
+    <h2 class="section-title">Tools I build with</h2>
+  </div>
+
+  <div class="skills-grid" id="skillsGrid"></div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="section projects">
+  <div class="section-head reveal">
+    <p class="section-tag">Projects</p>
+    <h2 class="section-title">
+
+AI, Full Stack & Software Engineering Projects</h2>
+  </div>
+
+  <div class="projects-grid">
+
+<div class="project-card">
+    <img src="project1.png" alt="Project 1">
+    <h3>AI Project</h3>
+    <p>AI based application.</p>
+</div>
+
+<div class="project-card">
+    <img src="project2.png" alt="Project 2">
+    <h3>Full Stack Project</h3>
+    <p>MERN Stack Application.</p>
+</div>
+
+<div class="project-card">
+    <img src="project3.png" alt="Project 3">
+    <h3>Portfolio</h3>
+    <p>Responsive Portfolio Website.</p>
+</div>
+
+<div class="project-card">
+    <img src="project4.png" alt="Project 4">
+    <h3>Software Engineering</h3>
+    <p>Management System.</p>
+</div>
+
+</div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section id="education" class="section education">
+  <div class="section-head reveal">
+    <p class="section-tag">Education</p>
+    <h2 class="section-title">Academic journey</h2>
+  </div>
+
+  <div class="timeline" id="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-year">2024 – 2028</span>
+        <h3>B.Tech, Information Technology</h3>
+        <p>Shri Vishnu Engineering College for Women</p>
+        <span class="timeline-score">CGPA 9.56</span>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-year">Intermediate</span>
+        <h3>MPC</h3>
+        <p>Senior Secondary Education</p>
+        <span class="timeline-score">98.5%</span>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-year">SSC</span>
+        <h3>Secondary School Certificate</h3>
+        <p>Secondary Education</p>
+        <span class="timeline-score">88.5%</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section id="achievements" class="section achievements">
+  <div class="section-head reveal">
+    <p class="section-tag">Achievements</p>
+    <h2 class="section-title">Milestones along the way</h2>
+  </div>
+
+  <div class="achievements-grid" id="achievementsGrid"></div>
+</section>
+
+<!-- ============ GITHUB ============ -->
+<section id="github" class="section github">
+  <div class="section-head reveal">
+    <p class="section-tag">GitHub</p>
+    <h2 class="section-title">Open source activity</h2>
+  </div>
+
+  <div class="github-panel reveal">
+    <div class="github-profile" id="githubProfile">
+      <div class="gh-avatar-wrap">
+        <img id="ghAvatar" src="" alt="GitHub avatar" loading="lazy" />
+      </div>
+      <div class="gh-info">
+        <h3 id="ghName">Iswarya Doddipatla</h3>
+        <p id="ghBio">Loading profile…</p>
+        <div class="gh-stats">
+          <div><strong id="ghFollowers">–</strong><span>Followers</span></div>
+          <div><strong id="ghFollowing">–</strong><span>Following</span></div>
+          <div><strong id="ghRepos">–</strong><span>Repos</span></div>
+        </div>
+        <a href="https://github.com/Iswarya952" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">View Profile</a>
+      </div>
+    </div>
+
+    <div class="gh-repos" id="ghPinned">
+      <p class="gh-loading">Fetching repositories…</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEETCODE ============ -->
+<section id="leetcode" class="section leetcode">
+  <div class="section-head reveal">
+    <p class="section-tag">LeetCode</p>
+    <h2 class="section-title">Problem solving stats</h2>
+  </div>
+
+  <div class="leetcode-grid reveal">
+    <div class="lc-card">
+      <span data-lucide="check"></span>
+      <strong class="lc-number" data-target="200" data-suffix="+">0</strong>
+      <span class="lc-label">Problems Solved</span>
+    </div>
+    <div class="lc-card">
+      <span data-lucide="trophy"></span>
+      <strong class="lc-number" data-target="1500">0</strong>
+      <span class="lc-label">Contest Rating</span>
+    </div>
+    <div class="lc-card">
+      <span data-lucide="badge-check"></span>
+      <strong class="lc-number" data-target="8">0</strong>
+      <span class="lc-label">Badges Earned</span>
+    </div>
+    <div class="lc-card">
+      <span data-lucide="flame"></span>
+      <strong class="lc-number" data-target="200" data-suffix="+">0</strong>
+      <span class="lc-label">Day Streak</span>
+    </div>
+  </div>
+
+  <div class="heatmap reveal" id="heatmap" aria-label="Activity heatmap"></div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section id="certifications" class="section certifications">
+  <div class="section-head reveal">
+    <p class="section-tag">Recognitions</p>
+    <h2 class="section-title">Verified milestones</h2>
+  </div>
+
+  <div class="cert-grid" id="certGrid"></div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section contact">
+  <div class="section-head reveal">
+    <p class="section-tag">Contact</p>
+    <h2 class="section-title">Let's build something together</h2>
+  </div>
+
+  <div class="contact-inner">
+    <div class="contact-info reveal">
+      <p class="contact-lead">Have a project in mind, an opportunity to share, or just want to talk AI? My inbox is open.</p>
+
+      <a href="mailto:iswaryadoddipatla@gmail.com" class="contact-row">
+        <span data-lucide="mail" class="contact-icon"></span>
+        <div><strong>Email</strong><span>iswaryadoddipatla@gmail.com</span></div>
+      </a>
+      <a href="tel:+918008009731" class="contact-row">
+        <span data-lucide="phone" class="contact-icon"></span>
+        <div><strong>Phone</strong><span>+91 8008009731</span></div>
+      </a>
+      <a href="https://github.com/Iswarya952" target="_blank" rel="noopener" class="contact-row">
+        <span data-lucide="github" class="contact-icon"></span>
+        <div><strong>GitHub</strong><span>github.com/Iswarya952</span></div>
+      </a>
+      <a href="https://linkedin.com/in/iswarya-doddipatla" target="_blank" rel="noopener" class="contact-row">
+        <span data-lucide="linkedin" class="contact-icon"></span>
+        <div><strong>LinkedIn</strong><span>linkedin.com/in/iswarya-doddipatla</span></div>
+      </a>
+      <a href="https://leetcode.com/" target="_blank" rel="noopener" class="contact-row">
+        <span data-lucide="code-2" class="contact-icon"></span>
+        <div><strong>LeetCode</strong><span>leetcode.com</span></div>
+      </a>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project…"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">
+        <span>Send Message</span>
+      </button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,32 C240,96 480,0 720,32 C960,64 1200,96 1440,32 L1440,120 L0,120 Z"></path>
+  </svg>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo footer-logo">
+        <span class="logo-line">Iswarya</span>
+        <span class="logo-line logo-line-2">Doddipatla</span>
+      </span>
+      <p>Built with HTML, Tailwind CSS and JavaScript.</p>
+    </div>
+    <div class="footer-socials">
+      <a href="https://github.com/Iswarya952" target="_blank" rel="noopener" aria-label="GitHub" class="icon-btn" data-lucide="github"></a>
+      <a href="https://linkedin.com/in/iswarya-doddipatla" target="_blank" rel="noopener" aria-label="LinkedIn" class="icon-btn" data-lucide="linkedin"></a>
+      <a href="https://leetcode.com/" target="_blank" rel="noopener" aria-label="LeetCode" class="icon-btn" data-lucide="code-2"></a>
+      <a href="mailto:iswaryadoddipatla@gmail.com" aria-label="Email" class="icon-btn" data-lucide="mail"></a>
+    </div>
+    <p class="footer-copy">© 2026 Iswarya Doddipatla. Built with HTML, Tailwind CSS and JavaScript.</p>
+  </div>
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <span data-lucide="arrow-up"></span>
+  </button>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
